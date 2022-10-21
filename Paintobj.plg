@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Paintobj - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\WinRel/PAINTOBJ.res" /d "NDEBUG" "C:\VCBib\Chap20\PAINTOBJ\PAINTOBJ.RC"" 
+Creating temporary file "C:\TEMP\RSP83A0.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /Fp".\WinRel/Paintobj.pch" /Yu"stdafx.h" /Fo".\WinRel/" /Fd".\WinRel/" /FD /c 
+"C:\VCBib\Chap20\PAINTOBJ\CIRCLE.CPP"
+"C:\VCBib\Chap20\PAINTOBJ\LINE.CPP"
+"C:\VCBib\Chap20\PAINTOBJ\MAINFRM.CPP"
+"C:\VCBib\Chap20\PAINTOBJ\PAINTDOC.CPP"
+"C:\VCBib\Chap20\PAINTOBJ\PAINTED.CPP"
+"C:\VCBib\Chap20\PAINTOBJ\PAINTOBJ.CPP"
+"C:\VCBib\Chap20\PAINTOBJ\paintvw.cpp"
+"C:\VCBib\Chap20\PAINTOBJ\SQUARE.CPP"
+]
+Creating command line "cl.exe @C:\TEMP\RSP83A0.TMP" 
+Creating temporary file "C:\TEMP\RSP83A1.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /Fp".\WinRel/Paintobj.pch" /Yc"stdafx.h" /Fo".\WinRel/" /Fd".\WinRel/" /FD /c 
+"C:\VCBib\Chap20\PAINTOBJ\STDAFX.CPP"
+]
+Creating command line "cl.exe @C:\TEMP\RSP83A1.TMP" 
+Creating temporary file "C:\TEMP\RSP83A2.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:".\WinRel/Paintobj.pdb" /machine:I386 /out:".\WinRel/Paintobj.exe" 
+.\WinRel\CIRCLE.OBJ
+.\WinRel\LINE.OBJ
+.\WinRel\MAINFRM.OBJ
+.\WinRel\PAINTDOC.OBJ
+.\WinRel\PAINTED.OBJ
+.\WinRel\PAINTOBJ.OBJ
+.\WinRel\paintvw.obj
+.\WinRel\SQUARE.OBJ
+.\WinRel\STDAFX.OBJ
+.\WinRel\PAINTOBJ.res
+]
+Creating command line "link.exe @C:\TEMP\RSP83A2.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+STDAFX.CPP
+Compiling...
+CIRCLE.CPP
+LINE.CPP
+MAINFRM.CPP
+PAINTDOC.CPP
+PAINTED.CPP
+PAINTOBJ.CPP
+paintvw.cpp
+SQUARE.CPP
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Paintobj.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
